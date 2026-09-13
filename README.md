@@ -1,3 +1,8 @@
 # c---programing-
-#include<stdio.h>
-printf("heloo word")
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+    return 0;
+}
