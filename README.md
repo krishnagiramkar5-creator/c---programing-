@@ -1,10 +1,17 @@
-# c---programing-
-1)print hello world 
-#include <stdio.h>
-
+#
+using name space std;
 int main()
 {
-    printf("Hello World");
-    return 0;
+float cp, sp;
+cout<<"enter cost price";
+cin>>cp;
+cout<<"enter selling price";
+cin>>sp;
+if(sp>cp)
+cout<<"profit="<<sp-cp;
+else if (cp>sp)
+cout<<"loss="<<cp-sp;
+else
+cout<<"no profit no loss"";
+return 0;
 }
- 
